@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+body {
+    background: #e8eef1;
+}
+
+.wrapper img {
+    width: 25%;
+    display: block;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 37.5%;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.col-50 {
+    -ms-flex: 40%;
+    flex: 40%;
+    padding: 0 16px;
+}
+
+.wrapper h2 {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.wrapper h3 {
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #3156c4;
+    font-style: bold;
+    margin-bottom: 20px;
+}
+
+.wrapper .address {
+    margin-left: 20%;
+}
+
+.wrapper .pay {
+    margin-right: 26%;
+    text-align: right;
+}
+
+.wrapper .address,
+.wrapper .pay {
+    display: block;
+    padding: 40px;
+}
+
+.wrapper .address .title,
+.wrapper .pay .titlepay {
+    color: #3156c4;
+}
+
+.wrapper h2,
+.wrapper .pay .subtitlepay {
+    font-size: 30px;
+}
+
+.wrapper .info h3 {
+    width: 90%;
+    margin-left: 5%;
+    border-bottom: 3px solid #3156c4;
+}
+
+.wrapper .info table {
+    font-size: 16px;
+    text-align: left;
+    width: 60%;
+    border-collapse: collapse;
+    
+}
+
+.wrapper .info table #info {
+    color: #3156c4;
+}
+
+.wrapper .info table .left {
+    text-align: left;
+}
+
+.wrapper .info table .right {
+    text-align: right;
+}
+
+.wrapper .info .klien th,
+.wrapper .info .kereta th,
+.wrapper .info .tempahan th {
+    border-bottom: 1px solid #c6d4fc;
+    padding: 3px;
+}
+
+.wrapper .info .main {
+    margin-top: 30px;
+    margin-left: 20%;
+}
+
+.wrapper .info .klien,
+.wrapper .info .kereta,
+.wrapper .info .tempahan {
+    margin-top: 10px;
+    margin-left: 20%;
+}
+
+.wrapper button {
+    display: block;
+    padding: 3px;
+    width: 15%;
+    margin-top: 20px;
+    margin-left:45%;
+}
